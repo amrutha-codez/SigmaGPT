@@ -1,0 +1,93 @@
+.dashboard {
+  flex: 1;
+  padding: 30px;
+  background: #212121;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.dashboard h1 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+}
+
+.dashboard-status {
+  font-size: 16px;
+  color: #aaa;
+}
+
+.dashboard-status.error {
+  color: #ef4444;
+}
+
+.retry-btn {
+  margin-top: 12px;
+  padding: 8px 16px;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dashboard-top-row {
+  display: flex;
+  gap: 16px;
+}
+
+.dashboard-two-col {
+  display: flex;
+  gap: 16px;
+}
+
+.dashboard-two-col > * {
+  flex: 1;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.skill-item {
+  position: relative;
+}
+
+.skill-delta {
+  font-size: 12px;
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.skill-delta.up {
+  color: #22c55e;
+}
+
+.skill-delta.down {
+  color: #ef4444;
+}
+
+.empty-state {
+  color: #888;
+  font-size: 13px;
+}
+
+.activity-list li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.correct {
+  color: #22c55e;
+}
+
+.incorrect {
+  color: #ef4444;
+}
+
+.reason {
+  color: #888;
+  font-size: 12px;
+}

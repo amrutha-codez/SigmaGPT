@@ -1,0 +1,26 @@
+.ui-card {
+  background: #2a2a2a;
+  border-radius: 14px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.ui-card-title {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ui-card-body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ui-card-body ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.ui-card-body li {
+  margin-bottom: 6px;
+}

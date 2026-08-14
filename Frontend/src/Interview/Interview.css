@@ -1,0 +1,94 @@
+.interview {
+  flex: 1;
+  padding: 30px;
+  background: #212121;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.interview h1 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+}
+
+.iv-error {
+  color: #ef4444;
+  margin-bottom: 12px;
+}
+
+.iv-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 420px;
+}
+
+.iv-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.iv-form select,
+.iv-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #3a3a3a;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.iv-progress {
+  color: #888;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.iv-feedback-card p {
+  margin-bottom: 10px;
+}
+
+.iv-score-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.iv-question {
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.iv-answer-input {
+  width: 100%;
+  background: #1a1a1a;
+  color: #e0e0e0;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.iv-actions {
+  display: flex;
+  align-items: center;
+}
+
+.iv-two-col {
+  display: flex;
+  gap: 16px;
+}
+
+.iv-two-col > * {
+  flex: 1;
+}
+
+.empty-state {
+  color: #888;
+  font-size: 13px;
+}

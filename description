@@ -1,0 +1,50 @@
+# SigmaGPT — AI Coding & Career Coach
+
+SigmaGPT is an AI-powered web application designed to help students and aspiring software developers with coding, learning, interview preparation, projects, and career development.
+
+Unlike a general AI chatbot, SigmaGPT combines multiple stages of a student's technical journey into one platform. It provides AI chat, code review, debugging, progressive hints, study assistance, mock interviews, resume analysis, job matching, project mentoring, skill tracking, career readiness analysis, and a personal mistake bank.
+
+## Key Features
+
+* 🤖 AI Chat Assistant
+* 📊 Skill Progress Dashboard
+* 📚 AI Study System
+* 💻 Coding Lab
+
+  * Code Reviewer
+  * Debugger
+  * Progressive Hint Mode
+* 🎤 AI Mock Interview
+* 📄 Resume Analyzer
+* 💼 Job Match Analyzer
+* 🚀 AI Project Mentor
+* 📈 Career Readiness Score
+* 🧠 Personal Mistake Bank
+* 🔐 JWT Authentication
+* 💬 Chat History & Thread Management
+* 🌙 Dark/Light Mode
+* 🗄️ MongoDB Persistence
+
+## Core Idea
+
+The main idea behind SigmaGPT is personalization. Instead of only answering a user's current question, the platform uses learning activity, coding performance, interview results, mistakes, projects, goals, and career information to provide more useful recommendations.
+
+For example:
+
+**Coding Attempt → Performance Analysis → Mistake Bank → Skill Progress → Personalized Revision → Career Readiness**
+
+## Tech Stack
+
+**Frontend:** React.js, Vite, React Router, Axios, React Icons, Framer Motion, React Markdown, Highlight.js
+
+**Backend:** Node.js, Express.js, Axios, JWT, Mongoose, dotenv
+
+**Database:** MongoDB
+
+**AI:** Groq API and Claude AI
+
+## Goal
+
+The goal of SigmaGPT is to create a single platform where a student can learn, practice, identify weaknesses, prepare for interviews, improve projects, optimize their resume, and track their readiness for a software career.
+
+> SigmaGPT — Learn. Code. Practice. Improve. Get Career Ready.
